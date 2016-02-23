@@ -118,6 +118,10 @@ button:hover {
            margin-top:-.5rem;
         }
 
+        button{
+           font-size: .75em;
+        }
+
     
   }
 
