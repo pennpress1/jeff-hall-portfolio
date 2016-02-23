@@ -54,7 +54,7 @@ body {
 
 @media only screen and (max-width:30em) { 
         .right li{
-          font-size: 1.25rem;
+          font-size: 1rem;
         }
     
   }
