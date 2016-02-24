@@ -54,7 +54,7 @@ body {
     color: #ff4948;
 }
 
-@media only screen and (max-width:30em) { 
+@media only screen and (max-width:35em) { 
        
         .menu {
           height:30%;
@@ -76,7 +76,7 @@ body {
     height: 23rem;
     background-size: cover;
     background-repeat: no-repeat;
-    overflow: auto;
+    
 }
 .header .content {
     text-align: center;
@@ -134,7 +134,7 @@ button:hover {
   }
 
 .packages{
-    height:19rem;
+    height:22rem;
     margin-top: 1rem;
 }
 
@@ -190,7 +190,7 @@ button:hover {
 .contacts{
     background-color: #333333;
     color: #FFFFFF;
-    height:25rem;
+    height:35rem;
     border-top:solid thick #666666;
     text-align: center;
 }
