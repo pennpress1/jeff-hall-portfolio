@@ -59,6 +59,10 @@ body {
         .menu {
           height:30%;
         }
+
+        .content .right {
+          font-size: .75rem;
+        }
     
   }
 
@@ -129,7 +133,7 @@ button:hover {
   }
 
 .packages{
-    height:22rem;
+    height:100%;
     margin-top: 1rem;
 }
 
@@ -185,7 +189,7 @@ button:hover {
 .contacts{
     background-color: #333333;
     color: #FFFFFF;
-    height:15rem;
+    height:25rem;
     border-top:solid thick #666666;
     text-align: center;
 }
