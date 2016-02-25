@@ -4,6 +4,11 @@ body {
     -webkit-font-smoothing: antialiased;
     font-size: 16px;
 }
+
+/* Home page CSS */
+
+
+/* Nav Menu Start*/
 .menu {
     background-color: #666666;
     color: #FFFFFF;
@@ -67,10 +72,10 @@ body {
     
   }
 
+/* Nav menu end */
 
 
-
-
+/* Start Header Section */
 .header {
     background-image: url("../img/header-back.jpg");
     height: 23rem;
@@ -133,6 +138,10 @@ button:hover {
     
   }
 
+/* end Header Section */
+
+/* Start Packages Section */
+
 .packages{
     height:22rem;
     margin-top: 1rem;
@@ -186,6 +195,11 @@ button:hover {
 }
 
 
+/* end Packages Section */
+
+
+/*Start Footer*/
+
 
 .contacts{
     background-color: #333333;
@@ -209,3 +223,97 @@ button:hover {
     color:#ff4948;
     -webkit-font-smoothing: antialiased !important;
 }
+
+/*end Footer*/
+
+
+/* End home page */
+
+
+
+/* Start About page */
+
+.about{
+    height:35rem;
+    margin-top: 1rem;
+}
+
+.about .fa{
+  color:#ff4948;
+  margin-right:1rem;
+
+}
+
+.me h2{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased !important;
+    font-size: 2.5rem;
+     border-bottom: solid thin #ff4948 !important;
+}
+
+.me p{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased !important;
+    font-size: 1.5rem;
+}
+
+.me a{
+  color:#ff4948;
+  text-decoration: none;
+
+}
+
+/* end About page */
+
+
+/* Start Projects page */
+.projects{
+    height:35rem;
+    margin-top: 1rem;
+}
+
+.projects .position1{
+    background-image: url("../img/snapshot.png");
+    height: 23rem;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top:-1rem;
+    border: solid thin #ececec !important;
+
+}
+
+.projects .position2{
+    background-image: url("../img/karma.png");
+    height: 23rem;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top:-1rem;
+    border: solid thin #ececec !important;
+
+}
+
+
+.projects .fa{
+  color:#ff4948;
+  margin-right:1rem;
+
+}
+
+.head h2{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased !important;
+    font-size: 2.5rem;
+     border-bottom: solid thin #ff4948 !important;
+}
+
+/* end Projects page */
+
+
+
+
+
