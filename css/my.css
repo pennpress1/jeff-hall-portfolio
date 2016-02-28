@@ -58,20 +58,6 @@ body {
 .right a:hover {
     color: #ff4948;
 }
-
-@media only screen and (max-width:35em) { 
-       
-        .menu {
-          height:30%;
-        }
-
-        .content .right li{
-          font-size: 1rem;
-          margin: 0 auto;
-        }
-    
-  }
-
 /* Nav menu end */
 
 
@@ -122,22 +108,6 @@ button:hover {
   text-decoration: none;
 }
 
-@media only screen and (max-width:30em) { 
-        .header .content h2{
-          font-size: 2rem;
-        }
-
-        .header .content .line{
-           margin-top:-.5rem;
-        }
-
-        button{
-           font-size: .75em;
-        }
-
-    
-  }
-
 /* end Header Section */
 
 /* Start Packages Section */
@@ -184,18 +154,6 @@ button:hover {
     font-size:1.5rem;
     color:#919191;
 }
-
-
-@media only screen and (max-width:30em) { 
-        .content .boxed h4{
-          font-size: 1rem;
-        }
-
-        .subtext .content{
-         font-size: .75rem;
-        }
-}
-
 
 /* end Packages Section */
 
@@ -314,6 +272,66 @@ button:hover {
 }
 
 /* end Projects page */
+
+
+@media only screen and (max-width:320px) { 
+       
+        .menu {
+          height:30%;
+        }
+
+        .content .right li{
+          font-size: 1rem;
+          margin: 0 auto;
+        }
+
+        .header .content h2{
+          font-size: 2rem;
+        }
+
+        .header .content .line{
+           margin-top:-.5rem;
+        }
+
+        button{
+           font-size: .75em;
+        }
+
+        .content .boxed h4{
+          font-size: 1rem;
+        }
+
+        .subtext .content{
+         font-size: .75rem;
+        }
+
+    
+  }
+
+  @media only screen and (min-width : 320px){
+ 
+  }
+ 
+  /* Extra Small Devices, Phones */
+  @media only screen and (min-width : 480px){
+ 
+  }
+ 
+  /* Small Devices, Tablets */
+  @media only screen and (min-width : 768px){
+ 
+  }
+ 
+  /* Medium Devices, Desktops */
+  @media only screen and (min-width : 992px){
+ 
+  }
+ 
+  /* Large Devices, Wide Screens */
+  @media only screen and (min-width : 1200px){
+ 
+  }
+
 
 
 
