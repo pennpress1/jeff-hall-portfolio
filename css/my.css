@@ -234,26 +234,8 @@ button:hover {
     margin-top: 1rem;
 }
 
-.projects .position1{
-    background-image: url("../img/snapshot.png");
-    height: 23rem;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-top:-1rem;
-    border: solid thin #ececec !important;
-
-}
-
-.projects .position2{
-    background-image: url("../img/karma.png");
-    height: 23rem;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-top:-1rem;
-    border: solid thin #ececec !important;
-
+.projects img{
+    border: thin solid #ececec;
 }
 
 
